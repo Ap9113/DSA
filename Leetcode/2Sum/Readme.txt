@@ -20,10 +20,10 @@ This checks all possible pairs, so it's guaranteed to find the answer (based on 
 2. Iterate through the array:
 	- For each number `arr[i]`, calculate its complement as `target - arr[i]`.
 	- Check if the complement exists in the map:
-		- If it does, you’ve found the two numbers → return their indices.
+		- If it does, we’ve found the two numbers → return their indices.
 		- If it doesn’t, put the current number and its index into the map.
 
-This way, you only loop once, and lookups in the map are constant time.
+This way, we only loop once, and lookups in the map are constant time.
 
 **Time Complexity:** O(n)  
 **Space Complexity:** O(n)

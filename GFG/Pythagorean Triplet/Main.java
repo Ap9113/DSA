@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+class Main {
     static boolean pythagoreanTripletBrute(int[] arr) {
         // code here
         int n = arr.length;
