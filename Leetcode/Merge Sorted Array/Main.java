@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Main {
+class Main {
 
     public static void merge(int[] arr1, int m, int[] arr2, int n) {
         int i = m - 1; // Last valid element in arr1
